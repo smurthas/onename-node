@@ -1,4 +1,4 @@
-# Onename
+# Onename ![Build Status](https://travis-ci.org/smurthas/onename-node.svg)
 
 This this is a client library for the Onename API. See [their
 docs](http://api.onename.co/docs) for details HTTP API spec.
