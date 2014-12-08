@@ -1,0 +1,17 @@
+{
+  "name": "onename",
+  "version": "0.0.1",
+  "description": "Client library for onename.co",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Simon Murtha Smith <simon@murtha-smith.com>",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.49.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  }
+}
