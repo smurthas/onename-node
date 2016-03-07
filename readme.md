@@ -1,7 +1,7 @@
 # Onename [![Build Status](https://travis-ci.org/smurthas/onename-node.svg)](https://travis-ci.org/smurthas/onename-node)
 
 This this is a client library for the Onename API. See [their
-docs](http://api.onename.co/docs) for details HTTP API spec.
+docs](http://api.onename.com/docs) for details HTTP API spec.
 
 Important: the Onename API is still in closed beta, so this is all subject to
 change!
