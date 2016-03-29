@@ -1,7 +1,7 @@
 {
   "name": "onename",
   "version": "0.0.1",
-  "description": "Client library for onename.co",
+  "description": "Client library for onename.com",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
