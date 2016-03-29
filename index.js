@@ -3,7 +3,7 @@ var request = require('request');
 function Onename(options) {
   this.appID = options.appID;
   this.appSecret = options.appSecret;
-  this.baseURL = options.baseURL || 'http://api.onename.co/v1';
+  this.baseURL = options.baseURL || 'https://api.onename.com/v1';
 }
 
 Onename.prototype.apiCall = function(options, callback) {
@@ -29,14 +29,6 @@ Onename.prototype.profiles = function(openname, callback) {
     uri: this.baseURL + '/users/' + openname,
     method: 'get'
   }, callback);
-};
-
-Onename.prototype.verifications = function(openname, callback) {
-  this.apiCall({
-    uri: this.baseURL + '/users/' + openname + '/verifications',
-    method: 'get'
-  }, callback);
-
 };
 
 Onename.prototype.search = function(query, callback) {

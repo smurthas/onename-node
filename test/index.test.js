@@ -29,21 +29,12 @@ describe('api', function() {
       assert(resp);
       assert.equal(resp.statusCode, 200);
       assert(body);
-      assert(body.profile);
+      assert(body.fredwilson);
+      assert(body.fredwilson.profile);
+      assert(body.fredwilson.verifications);
 
       done();
     });
   });
 
-  it('should lookup an individual profile\'s verifications', function(done) {
-    client.verifications('fredwilson', function(err, resp, body) {
-      assert.ifError(err);
-      assert(resp);
-      assert.equal(resp.statusCode, 200);
-      assert(body);
-      assert(body.verifications);
-
-      done();
-    });
-  });
 });
